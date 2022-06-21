@@ -1,0 +1,122 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	color: #708090;
+	font-family: Andale Mono, monospace;
+
+}
+.hdmain{
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 26px;
+
+}
+
+.jeden{
+	float: left;
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 1px;
+	margin-left: 7%;
+
+}
+
+.head1{
+	background: url('../img/webfx.png') no-repeat;
+	width: auto;
+	height: 200px;
+
+
+
+
+
+}
+.head2{
+	background: url('../img/unnamed.jpg');
+	width: auto;
+	height: 200px;
+	border: solid 5px grey;
+}
+.head3{
+	background: url('../img/Tapeta-na-na-stenu-jesenne-listy.jpg.large.jpg');
+	width: auto;
+	height: 200px;
+	border: solid 5px grey;
+}
+.wrapper strong {
+	font-size: 20px;
+
+}
+
+h2{
+	font-size: 20px;
+	padding-bottom: 5px;
+	padding-top: 1px;
+	margin-top: 40px;
+}
+
+.tlacidko a {
+   		display: block;
+        max-width: 120px;
+        background-color: #2e2e2e;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        border-radius: 5px;
+       	padding: 12px;
+       	margin:auto;
+       	clear: both;
+       	margin-bottom: 10%;
+
+    }
+.wrapper{
+	margin: auto;
+	display: block;
+	padding: 10%;
+}
+
+.info{
+	width: 700px;
+	margin:60px auto;
+}
+.info h3 {
+	font-size: 18px;
+
+
+}
+
+.info > h3{
+	text-align: center;
+}
+.photo{
+	float: left;
+}
+.photo img{
+	border-radius: 50%;
+	border: 10px solid #eee;
+	margin-top: 10px;
+}
+.byline h3, .byline p{
+	font-size: 14px;
+	margin-left: 180px;
+}
+.byline h3{
+	font-weight: 600;
+	font-size: 16px;
+}
+.foter{
+	text-align: right;
+	color: #787878;
+	padding: 15px;
+	font-size: 10px;
+}
+
+
+

@@ -1,0 +1,107 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+
+}
+
+body{
+	padding: 1.4em;
+	font:0.9em/1.35em  'Raleway', sans-serif;
+
+}
+
+p{
+	margin:0 ;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+@media ( max-width: 599px ){
+
+	article{
+		text-align: center;
+		padding: 2em 0;
+	border-bottom: 1px solid #ccc;
+}
+
+article:last-child{
+	border: none;
+}
+
+}
+
+
+@media ( min-width: 600px ) {
+
+	article{
+		padding: 1em 0;
+
+	}
+
+	.image{
+		width: 40%;
+		float: left;
+	}
+	.text {
+		width: 60%;
+		float: left;
+		padding-left: 2em;
+	}
+}
+
+
+@media ( min-width: 600px) and ( max-width: 1023px ){
+
+
+	.image{
+		width: 40%;
+		float: left;
+	}
+	.text {
+		width: 60%;
+		float: left;
+		padding-left: 2em;
+	}
+}
+
+@media ( min-width: 1024px ){
+	.container {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	article{
+		width: 300px;
+		float: left;
+		margin: 0 10px;
+	}
+	.image{
+		text-align: center;
+	}
+
+
+
+
+
+}

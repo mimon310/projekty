@@ -1,0 +1,154 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #dadada;
+}
+
+.header-main {
+	text-align: center;
+	border-bottom: 1px solid #aaaaaa;
+	background-color: #fff;
+	height: 100px;
+}
+.header-main h1{
+	margin: 0;
+	padding: 0;
+	font-family: 'Fredoka One', cursive;
+	position: relative;
+	top: 20px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1500px;
+    height: 750px;
+    margin-left: 10%;
+}
+.sectionwp {
+    width: 800px;
+    height: 750px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 0px ;
+    float: left;
+    border-radius: 10px;
+    clear: both;
+
+
+}
+.header-1 {
+    background: url('../img/unnamed.jpg');
+    width: auto;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sectionwp-article {
+    margin: 25px;
+}
+
+.sectionwp-article h2
+    {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    }
+
+    .sectionwp-article h3 {
+    margin: 10px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    }
+
+    .sectionwp p {
+    margin: 20px 0px;
+    color: #4e4e4e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.sectionwp p:first-of-type {
+    margin-top: 50px;
+}
+
+ .sidebar {
+        width: 400px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 2px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+        float: right;
+        border-radius: 10px;
+        margin-right: 200px;
+
+    }
+
+    .sidebarhd1 {
+        background: url('../img/beeches-3842636_1920.jpg');
+        width: 400px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .sidebarhd2 {
+        background: url('../img/Tapeta-na-na-stenu-jesenne-listy.jpg.large.jpg');
+        width: 400px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .sidebarwp-article {
+        margin: 20px;
+    }
+
+    .sidebarwp-article h1 {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        color: #2e2e2e
+    }
+
+    .sidebarwp-article p {
+        margin: 20px 30px 10px 0;
+        color: #4e4e4e;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    .sidebarwp-article a {
+        display: block;
+        max-width: 120px;
+        background-color: #2e2e2e;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        border-radius: 5px;
+       	padding: 12px;
+       	margin:auto ;
+    }
+
+ .tlacidlo a:hover {
+        background-color: green;
+        transition: 0.3s;
+    }
+
+
+
